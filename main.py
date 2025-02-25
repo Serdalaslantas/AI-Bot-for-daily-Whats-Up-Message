@@ -16,7 +16,7 @@ client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 account_sid = os.environ.get("TWILIO_ACCOUNT_SID")
 auth_token = os.environ.get("TWILIO_AUTH_TOKEN")
 twilio_whatsapp_number = "whatsapp:+14155238886"
-persons_whatsapp_number = "whatsapp:+40771299167"
+persons_whatsapp_number = "whatsapp:+123456789"
 
 # Scheduler
 scheduler = BackgroundScheduler()
